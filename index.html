@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landsay website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/86dfd662d3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="cont">
+        <header>
+            <div class="logo"><img src="/images/logo-dark.png" alt=""></div>
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                                viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                <path
+                                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Client</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+                <ul>
+                    <li class="hideOnMobile"><a href="#">Home</a></li>
+                    <li class="hideOnMobile"><a href="#">Features</a></li>
+                    <li class="hideOnMobile"><a href="#">Client</a></li>
+                    <li class="hideOnMobile"><a href="#">Pricing</a></li>
+                    <li class="menu-button" onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                height="26px" viewBox="0 -960 960 960" width="26px" fill="#5f6368">
+                                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                            </svg></a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <div class="bodtext">
+
+            <h4 class="text">Awesome</h4>
+            <h1 class="text">Seed Up Your Development With landsay</h1>
+
+            <p class="smalltext text">A digital Web Design Studio Creating & enaging online.separate they
+                <br>live in bookmarksgrove right the sementic, a large language
+
+            </p>
+
+            <button>Request Demo</button>
+        </div>
+    </div>
+
+
+    </div>
+    <div class="container">
+        <h1>Product Features</h1>
+        <div class="pr">
+            <div class="row">
+                <i class="fa-solid fa-chart-simple"></i>
+                <h2>Digital Design</h2>
+                <p>Some quick example text to build on the card title and make up the bulk of the card the platform.
+
+                </p>
+            </div>
+            <div class="row">
+                <i class="fa-solid fa-gift"></i>
+                <h2>Unlimited Colors</h2>
+                <p>Credibly brand stanaads compliant user exteible services College Anibh ocean euismod tincidunt laoreet.
+                </p>
+            </div>
+            <div class="row">
+                <i class="fa-solid fa-code"></i>
+                <h2>Strategy Solutions</h2>
+                <p>Separated they live in Bookmarks grove right at the coast of the Semantics, a large ocean regelialia.
+                </p>
+            </div>
+            <div class="row">
+                <i class="fa-brands fa-slack"></i>
+                <h2>Awesome Support</h2>
+                <p>Passage you need sure there anything embrassing text hidden all necessary making generator Internet
+                </p>
+            </div>
+            <div class="row">
+                <i class="fa-solid fa-laptop"></i>
+                <h2>Truly Multipurpose</h2>
+                <p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain.
+
+                </p>
+            </div>
+            <div class="row">
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Easy to customize</h2>
+                <p>Donec dolor eget augue commodo varius Aenean iaculis arcu in est facilisis, vitae auctor ipsum aliquet.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    </section>
+    <div class="sec2">
+        <h3>How It Works?</h3>
+        <p style="font-size: 14px; color: rgb(172, 172, 172); width: 500px; margin-left: 400px;">It is a long
+            established fact that a reader will be of a page when established fact looking at its layout.</p>
+        <div class="devider"></div>
+        <div class="work1">
+            <div>
+                <img src="images/work-1.png" alt="">
+            </div>
+            <div class="w-text">
+                <h5 style="font-size: 20px;">Tell us your idea</h5>
+                <p style="font-size: 14px; color: rgb(172, 172, 172);  ">It is a long established fact that a reader
+                    will be distracted by the readable content of a page when looking at its layout. The point of using
+                    Lorem Ipsum is that it has a more-or-less. It is a long established fact that a reader will be
+                    distracted.</p>
+            </div>
+
+        </div>
+
+        <div class="work1">
+
+            <div class="w-text">
+                <h5 style="font-size: 20px; text-align: right;">Tell us your idea</h5>
+                <p style="font-size: 14px; color: rgb(172, 172, 172); text-align: right; ">It is a long established fact
+                    that a reader will be distracted by the readable content of a page when looking at its layout. The
+                    point of using Lorem Ipsum is that it has a more-or-less. It is a long established fact that a
+                    reader will be distracted.</p>
+            </div>
+            <div>
+                <img src="images/work-1.png" alt="">
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <script>
+        function showsidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hidesidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+
+        }
+    </script>
+</body>
+
+</html>
